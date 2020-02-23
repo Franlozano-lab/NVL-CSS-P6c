@@ -1,0 +1,43 @@
+
+.container {
+    width: auto;
+    height: auto;
+    padding: 200px;
+    border: 2px solid black;
+    background-color: skyblue;
+}
+h1 {
+    background-color: green;
+    color: white;
+}
+h2, h3 { 
+    color: blue;
+}
+
+[data-vegetal] 
+{
+    color: green;
+}
+p[class~="1"] {
+    border-collapse: collapse;
+    border: 1px solid rgb(10, 1, 1);
+    letter-spacing: 1px;
+    font-size: 0,8rem;
+    color: white;
+    background-color: green;
+   
+}
+img[class~="a"] {
+    border: 4px solid green;
+}
+img[class^="b"] {
+border: 4px solid red;
+}
+
+div {
+    width: auto;
+    height: auto;
+    padding: 100px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+}
